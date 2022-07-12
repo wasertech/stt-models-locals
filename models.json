@@ -12,7 +12,7 @@
         "en_IE": "Irish STT v0.1.1",
         "br": "Breton STT v0.1.0",
         "ru": "Russian STT v0.1.0"
-    }
+    },
     "models": [
         {
             "name": "French STT v0.9",
