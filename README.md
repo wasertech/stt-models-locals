@@ -15,15 +15,21 @@ https://raw.githubusercontent.com/wasertech/stt-models-locals/main/models.json
 
 ## Langages
 
--  "fr": "French STT v0.9",
--  "en": "English STT v1.0.0-huge-vocab",
--  "cy": "Welsh STT v21.03",
--  "tcy": "Welsh STT v21.03",
--  "ca": "Catalan STT v0.14.0",
--  "uk": "Ukrainian STT v0.4",
--  "it": "Italian STT 2020.8.7",
--  "de": "German STT v0.9.0",
--  "el": "Greek STT v0.1.0",
--  "en_IE": "Irish STT v0.1.1",
--  "br": "Breton STT v0.1.0",
--  "ru": "Russian STT v0.1.0
+| `$LANG` | Language | STT Model |
+| ------- | -------- | --------- |
+| fr | French | French STT v0.9 |
+| en | English | English STT v1.0.0-huge-vocab |
+| cy | Welsh | Welsh STT v21.03 |
+| tcy | Welsh | Welsh STT v21.0 |
+| ca | Catalan | Catalan STT v0.14.0 |
+| uk | Ukrainian | Ukrainian STT v0.4 |
+| it | Italian | Italian STT 2020.8.7 |
+| de | German | German STT v0.9.0 |
+| el | Greek | Greek STT v0.1.0 |
+| en_IE | Irish | Irish STT v0.1.1 |
+| br | Breton | Breton STT v0.1.0 |
+| ru | Russian | Russian STT v0.1.0 |
+
+## Contributions
+
+If you see a mistake or miss your favorite language please add a [new issue](https://github.com/wasertech/stt-models-locals/issues/new/choose). PR are also welcome. 
