@@ -13,8 +13,8 @@
         "br": "Breton STT v0.1.0",
         "ru": "Russian STT v0.1.0"
     },
-    "models": [
-        {
+    "models": {
+        'French STT v0.9': {
             "name": "French STT v0.9",
             "language": "French",
             "version": "v0.9",
@@ -22,7 +22,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/french/commonvoice-fr/v0.9/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/french/commonvoice-fr/v0.9/kenlm.scorer"
         },
-        {
+        'Welsh STT v21.03': {
             "name": "Welsh STT v21.03",
             "language": "Welsh",
             "version": "v21.03",
@@ -30,7 +30,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/welsh/techiaith/v21.03/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/welsh/techiaith/v21.03/techiaith_bangor_transcribe_21.03.scorer"
         },
-        {
+        'Catalan STT v0.14.0': {
             "name": "Catalan STT v0.14.0",
             "language": "Catalan",
             "version": "v0.14.0",
@@ -38,7 +38,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/catalan/ccoreilly/v0.14.0/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/catalan/ccoreilly/v0.14.0/kenlm-aina-3-p10.scorer"
         },
-        {
+        'Ukrainian STT v0.4': {
             "name": "Ukrainian STT v0.4",
             "language": "Ukrainian",
             "version": "v0.4",
@@ -46,7 +46,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/ukrainian/robinhad/v0.4/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/ukrainian/robinhad/v0.4/kenlm.scorer"
         },
-        {
+        'German STT v0.9.0': {
             "name": "German STT v0.9.0",
             "language": "German",
             "version": "v0.9.0",
@@ -54,7 +54,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/german/AASHISHAG/v0.9.0/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/german/AASHISHAG/v0.9.0/de-aashishag-1-prune-kenlm.scorer"
         },
-        {
+        'Italian STT 2020.8.7': {
             "name": "Italian STT 2020.8.7",
             "language": "Italian",
             "version": "2020.8.7",
@@ -62,7 +62,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/italian/mozillaitalia/2020.8.7/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/italian/mozillaitalia/2020.8.7/it-mzit-1-prune-kenlm.scorer"
         },
-        {
+        'Greek STT v0.1.0': {
             "name": "Greek STT v0.1.0",
             "language": "Greek",
             "version": "v0.1.0",
@@ -70,7 +70,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/greek/itml/v0.1.0/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/greek/itml/v0.1.0/Greek-digits-yesno.scorer"
         },
-        {
+        'Irish STT v0.1.1': {
             "name": "Irish STT v0.1.1",
             "language": "Irish",
             "version": "v0.1.1",
@@ -78,7 +78,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/irish/itml/v0.1.1/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/irish/itml/v0.1.1/Irish-digits-yesno.scorer"
         },
-        {
+        'Breton STT v0.1.0': {
             "name": "Breton STT v0.1.0",
             "language": "Breton",
             "version": "v0.1.0",
@@ -86,7 +86,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/breton/itml/v0.1.0/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/breton/itml/v0.1.0/Breton-digits-yesno.scorer"
         },
-        {
+        'Polish STT v0.0.1': {
             "name": "Polish STT v0.0.1",
             "language": "Polish",
             "version": "v0.0.1",
@@ -94,7 +94,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/polish/jaco-assistant/v0.0.1/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/polish/jaco-assistant/v0.0.1/kenlm_pl.scorer"
         },
-        {
+        'English STT v1.0.0-huge-vocab': {
             "name": "English STT v1.0.0-huge-vocab",
             "language": "English",
             "version": "v1.0.0-huge-vocab",
@@ -102,7 +102,7 @@
             "acoustic": "https://coqui.gateway.scarf.sh/english/coqui/v1.0.0-huge-vocab/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/english/coqui/v1.0.0-huge-vocab/huge-vocabulary.scorer"
         },
-        {
+        'Russian STT v0.1.0': {
             "name": "Russian STT v0.1.0",
             "language": "Russian",
             "version": "v0.1.0",
@@ -110,5 +110,5 @@
             "acoustic": "https://coqui.gateway.scarf.sh/russian/jemeyer/v0.1.0/model.tflite",
             "scorer": "https://coqui.gateway.scarf.sh/russian/jemeyer/v0.1.0/wiki-ru-6gram.scorer"
         }
-    ]
+    }
 }
