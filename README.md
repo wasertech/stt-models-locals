@@ -22,8 +22,7 @@ https://raw.githubusercontent.com/wasertech/stt-models-locals/main/models.json
 | ------- | -------- | --------- |
 | fr | French | French STT v0.9 |
 | en | English | English STT v1.0.0-huge-vocab |
-| cy | Welsh | Welsh STT v21.03 |
-| tcy | Welsh | Welsh STT v21.0 |
+| (t)cy | Welsh | Welsh STT v21.03 |
 | ca | Catalan | Catalan STT v0.14.0 |
 | uk | Ukrainian | Ukrainian STT v0.4 |
 | it | Italian | Italian STT 2020.8.7 |
