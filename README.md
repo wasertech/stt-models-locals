@@ -7,7 +7,9 @@ Get the best STT model for your system.
 It's mainly used by a program to find the best STT model for the local of your system.
 
 i.e. 
+
 -`$LANG = "en_US.UTF-8" -> 'en': "English STT v1.0.0-huge-vocab"`
+
 -`$LANG = "fr_CH.UTF-8" -> 'fr': "French STT v0.9"`
 
 ## Source
