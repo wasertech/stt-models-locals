@@ -34,8 +34,9 @@ _i.e._
 You can use something like python to get the model card for your language and install the models thru the [STT Model Manager](https://github.com/coqui-ai/stt-model-manager).
 
 ```python
-import os
-from coqui_stt_model_manager.modelmanager import ModelManager, ModelCard
+import os, json
+from urllib import request
+from coqui_stt_model_manager.modelmanager import ModelManager
 
 I18N, L10N = (x for x in os.environ.get('LANG', "en_EN.UTF-8").split(".")[0].split("_"))
 MODELS_URL = "https://raw.githubusercontent.com/wasertech/stt-models-locals/main/models.json"
