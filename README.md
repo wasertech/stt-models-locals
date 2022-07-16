@@ -31,6 +31,39 @@ _i.e._
 }
 ```
 
+You can use something like python to get the model card for your language.
+
+```python
+import os
+
+I18N, L10N = (x for x in os.environ.get('LANG', "en_EN.UTF-8").split(".")[0].split("_"))
+
+def return_local_model_card():
+    r = request.urlopen(MODELS_URL)
+    rb = r.read()
+    json_models = json.loads(rb.decode('utf-8'))
+    model_lang = loc_models['locals'].get(I18N)
+    model_card = json_models['models'].get('model_lang')
+    return model_card
+
+>>> return_local_model_card()
+
+# you can then use the model manager of STT to download the models.
+from coqui_stt_model_manager.modelmanager import ModelManager, ModelCard
+
+manager = ModelManager()
+manager.download_model(return_local_model_card())
+```
+
+Or simply use [`listen`](https://gitlab.com/waser-technologies/technologies/listen).
+
+```zsh
+pip install git+https://gitlab.com/waser-technologies/technologies/listen.git
+LANG="fr_CH.UTF-8" python -m listen.STT.as_service
+--- in another terminal session ---
+listen
+```
+
 ## Source
 
 https://raw.githubusercontent.com/wasertech/stt-models-locals/main/models.json
