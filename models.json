@@ -87,12 +87,6 @@
                 "acoustic": "https://coqui.gateway.scarf.sh/catalan/ccoreilly/v0.14.0/model.tflite",
                 "scorer": "https://coqui.gateway.scarf.sh/catalan/ccoreilly/v0.14.0/kenlm-aina-3-p10.scorer"
             },
-        "Chatino": {
-                "language": "Chatino",
-                "name": "Western Highland Chatino STT",
-                "version": "v1.0.0",
-                "creator": "B\u00fclent \u00d6zden"
-            },
         "Chuvash": {
                 "language": "Chuvash",
                 "name": "Chuvash STT v0.1.1",
