@@ -38,6 +38,7 @@ import os
 from coqui_stt_model_manager.modelmanager import ModelManager, ModelCard
 
 I18N, L10N = (x for x in os.environ.get('LANG', "en_EN.UTF-8").split(".")[0].split("_"))
+MODELS_URL = "https://raw.githubusercontent.com/wasertech/stt-models-locals/main/models.json"
 
 def return_local_model_card():
     r = request.urlopen(MODELS_URL)
