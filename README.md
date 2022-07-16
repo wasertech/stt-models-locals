@@ -16,7 +16,7 @@ _i.e._
 
 https://raw.githubusercontent.com/wasertech/stt-models-locals/main/models.json
 
-## Langages
+## Language
 
 | `$LANG` | Language | STT Model |
 | ------- | -------- | --------- |
