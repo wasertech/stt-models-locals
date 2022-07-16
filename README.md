@@ -31,10 +31,11 @@ _i.e._
 }
 ```
 
-You can use something like python to get the model card for your language.
+You can use something like python to get the model card for your language and install the models thru the [STT Model Manager](https://github.com/coqui-ai/stt-model-manager).
 
 ```python
 import os
+from coqui_stt_model_manager.modelmanager import ModelManager, ModelCard
 
 I18N, L10N = (x for x in os.environ.get('LANG', "en_EN.UTF-8").split(".")[0].split("_"))
 
@@ -45,11 +46,6 @@ def return_local_model_card():
     model_lang = loc_models['locals'].get(I18N)
     model_card = json_models['models'].get('model_lang')
     return model_card
-
->>> return_local_model_card()
-
-# you can then use the model manager of STT to download the models.
-from coqui_stt_model_manager.modelmanager import ModelManager, ModelCard
 
 manager = ModelManager()
 manager.download_model(return_local_model_card())
