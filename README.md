@@ -16,7 +16,7 @@ _i.e._
 ```json
 {
     "locals": {
-        "en": "English",
+        "en": "English"
     },
     "models": {
         "English": {
