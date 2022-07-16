@@ -46,7 +46,7 @@ def return_local_model_card():
     rb = r.read()
     json_models = json.loads(rb.decode('utf-8'))
     model_lang = loc_models['locals'].get(I18N)
-    model_card = json_models['models'].get('model_lang')
+    model_card = json_models['models'].get(model_lang)
     return model_card
 
 manager = ModelManager()
