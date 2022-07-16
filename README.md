@@ -12,6 +12,25 @@ _i.e._
 
  - `$LANG = "fr_CH.UTF-8" -> 'fr': "French STT v0.9"`
 
+`models.json` looks like this:
+```json
+{
+    "locals": {
+        "en": "English",
+    },
+    "models": {
+        "English": {
+                "language": "English",
+                "name": "English STT v1.0.0-huge-vocab",
+                "version": "v1.0.0-huge-vocab",
+                "creator": "Coqui",
+                "acoustic": "https://coqui.gateway.scarf.sh/english/coqui/v1.0.0-huge-vocab/model.tflite",
+                "scorer": "https://coqui.gateway.scarf.sh/english/coqui/v1.0.0-huge-vocab/huge-vocabulary.scorer"
+            }
+    }
+}
+```
+
 ## Source
 
 https://raw.githubusercontent.com/wasertech/stt-models-locals/main/models.json
