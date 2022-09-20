@@ -45,7 +45,7 @@ def return_local_model_card():
     r = request.urlopen(MODELS_URL)
     rb = r.read()
     json_models = json.loads(rb.decode('utf-8'))
-    model_lang = loc_models['locals'].get(I18N)
+    model_lang = json_models['locals'].get(I18N)
     model_card = json_models['models'].get(model_lang)
     return model_card
 
