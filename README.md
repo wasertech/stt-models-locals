@@ -56,7 +56,7 @@ manager.download_model(return_local_model_card())
 Or simply use [`listen`](https://gitlab.com/waser-technologies/technologies/listen).
 
 ```zsh
-pip install git+https://gitlab.com/waser-technologies/technologies/listen.git
+pip install stt-listen
 LANG="fr_CH.UTF-8" python -m listen.STT.as_service
 --- in another terminal session ---
 listen
